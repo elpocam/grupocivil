@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asociación Civil - Temixco, Morelos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="mainHeader">
+        <nav>
+            <div class="logo-container">
+                <img src="logo/logo.png" alt="Escudo Temixco - Asociación Civil">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#apoyos">Apoyos</a></li>
+                <li><a href="#planes">Planes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <span class="hero-tag">Temixco, Morelos</span>
+            <h1>Raíces que transforman comunidades</h1>
+            <p>Somos un grupo civil comprometidos con el desarrollo social, la participación ciudadana y el bienestar de las familias de Temixco.</p>
+            <a href="#proyectos" class="btn-primary">Conoce nuestros proyectos</a>
+            <a href="#nosotros" class="btn-secondary">Sobre nosotros</a>
+        </div>
+    </section>
+
+    <!-- CARRUSEL DE FOTOS (CORREGIDO: AHORA VA JUSTO DESPUÉS DEL HERO) -->
+    <section class="carousel-section">
+        <div class="carousel-container">
+            <div class="carousel-track" id="carouselTrack">
+                
+                <div class="carousel-slide">
+                    <img src="img/4-102074235-1.jpeg" alt="Comunidad Temixco">
+                    <div class="carousel-caption">
+                        <h3>Unidos por Temixco</h3>
+                        <p>Nuestra comunidad trabajando junta en jornadas de mejora barrial y convivencia vecinal.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="img/destacada-Temixco.jpg" alt="Apoyo Social">
+                    <div class="carousel-caption">
+                        <h3>Apoyo que Transforma</h3>
+                        <p>Entrega de despensas y kits escolares a familias vulnerables de nuestras delegaciones.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="img/images.jfif" alt="Medio Ambiente">
+                    <div class="carousel-caption">
+                        <h3>Cuidando Nuestro Entorno</h3>
+                        <p>Jornadas de reforestación y limpieza en los espacios públicos de Temixco.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <img src="img/Ayuntamiento-de-Temixco.jpg" alt="Educación">
+                    <div class="carousel-caption">
+                        <h3>Educación para el Futuro</h3>
+                        <p>Talleres educativos y becas para jóvenes que buscan superarse académicamente.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-btn carousel-prev" id="prevBtn">&#10094;</button>
+            <button class="carousel-btn carousel-next" id="nextBtn">&#10095;</button>
+            <div class="carousel-indicators" id="indicators"></div>
+        </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros">
+        <span class="section-label">Nuestra esencia</span>
+        <h2>Más que una organización, una comunidad</h2>
+        <p class="section-desc">Inspirados en la riqueza cultural y humana de Temixco — "lugar donde nace el agua" — trabajamos para que cada familia tenga oportunidades reales de progreso.</p>
+        
+        <div class="nosotros-grid">
+            <div>
+                <img src="img/Mirador_del_Cerro_de_las_3_Cruces_Acatlipa,_Temixco.jpg" 
+                     alt="Comunidad Temixco" class="nosotros-image">
+            </div>
+            <div class="mv-cards">
+                <div class="mv-card">
+                    <h3>🎯 Misión</h3>
+                    <p>Promover el desarrollo integral de Temixco mediante acciones de apoyo social, participación ciudadana activa y proyectos comunitarios que fortalezcan el tejido social, la equidad y la calidad de vida de sus habitantes.</p>
+                </div>
+                <div class="mv-card">
+                    <h3>👁️ Visión</h3>
+                    <p>Ser un grupo civil de referencia en Temixco, reconocida por su transparencia, impacto medible y compromiso genuino con la transformación social sustentable de nuestra región morelense.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="proyectos-section" id="proyectos">
+        <div class="proyectos-inner">
+            <span class="section-label">Lo que hacemos</span>
+            <h2>Proyectos con impacto real</h2>
+            <p class="section-desc">Cada proyecto nace de escuchar a la comunidad y responder a sus necesidades más urgentes, canalizándolos con las personas adecuadas para resolver su problemática.</p>
+            
+            <div class="proyectos-grid">
+                <div class="proyecto-card">
+                    <img src="img/Ayuntamiento-de-Temixco.jpg" alt="Educación" class="proyecto-img">
+                    <div class="proyecto-body">
+                        <h3>📚 Apoyar para Todos</h3>
+                        <p>Alfabetización, talleres educativos y becas para jóvenes de escasos recursos en las colonias de Temixco.</p>
+                    </div>
+                </div>
+                <div class="proyecto-card">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80" alt="Salud" class="proyecto-img">
+                    <div class="proyecto-body">
+                        <h3>🏥 Campañas de Salud</h3>
+                        <p>Jornadas de salud gratuitas, campañas de prevención y acceso a servicios médicos básicos para quienes más lo necesitan.</p>
+                    </div>
+                </div>
+                <div class="proyecto-card">
+                    <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&q=80" alt="Medio Ambiente" class="proyecto-img">
+                    <div class="proyecto-body">
+                        <h3>🌱 Medio Ambiente</h3>
+                        <p>Reforestación, limpieza de espacios públicos y educación ambiental para preservar los recursos naturales de Morelos.</p>
+                    </div>
+                </div>
+                <div class="proyecto-card">
+                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&q=80" alt="Desarrollo Económico" class="proyecto-img">
+                    <div class="proyecto-body">
+                        <h3>💼 Desarrollo para las colonias</h3>
+                        <p>Capacitación laboral, emprendimiento y apoyo a pequeños negocios locales para fortalecer la economía familiar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EVENTOS -->
+    <section id="eventos">
+        <span class="section-label">Agenda comunitaria</span>
+        <h2>Próximos eventos</h2>
+        <p class="section-desc">Espacios de encuentro, diálogo y acción colectiva para construir un Temixco mejor.</p>
+        
+        <div class="eventos-timeline">
+            <div class="evento-item">
+                <span class="evento-fecha">15 Nov 2026</span>
+                <h3>Foro Ciudadano: Participación Política</h3>
+                <p>Encuentro abierto para discutir temas de interés comunitario, fortalecer la democracia local y construir propuestas desde la base.</p>
+            </div>
+            <div class="evento-item">
+                <span class="evento-fecha">22 Nov 2026</span>
+                <h3>Jornada de Apoyo Social</h3>
+                <p>Distribución de despensas, ropa y artículos de primera necesidad para familias vulnerables de todas las delegaciones.</p>
+            </div>
+            <div class="evento-item">
+                <span class="evento-fecha">5 Dic 2026</span>
+                <h3>Festival Comunitario Temixco</h3>
+                <p>Celebración cultural con música, danza, comida tradicional y actividades recreativas para toda la familia temixquense.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- APOYOS -->
+    <section class="apoyos-section" id="apoyos">
+        <div class="apoyos-inner">
+            <span class="section-label">Cómo ayudamos</span>
+            <h2>Tipos de apoyo</h2>
+            <p class="section-desc">Atendemos las necesidades básicas de las familias más vulnerables de Temixco con programas que ofrece el gobierno local.</p>
+            
+            <div class="apoyos-grid">
+                <div class="apoyo-card">
+                    <div class="apoyo-icon">🍞</div>
+                    <h3>Despensas Alimentarias</h3>
+                    <p>Apoyo con productos básicos para familias en situación vulnerable a bajo costo.</p>
+                </div>
+                <div class="apoyo-card">
+                    <div class="apoyo-icon">👕</div>
+                    <h3>Ropa y Calzado</h3>
+                    <p>Distribución de calzado a bajo costo para quienes más lo necesitan.</p>
+                </div>
+                <div class="apoyo-card">
+                    <div class="apoyo-icon">📖</div>
+                    <h3>Útiles Escolares</h3>
+                    <p>Kit escolar completo para niños y jóvenes al inicio de cada ciclo educativo.</p>
+                </div>
+                <div class="apoyo-card">
+                    <div class="apoyo-icon">💊</div>
+                    <h3>Otros</h3>
+                    <p>Apoyos diversos para las colonias de Temixco según la necesidad detectada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PLANES -->
+    <section id="planes">
+        <span class="section-label">Hacia adelante</span>
+        <h2>Planes y estrategias</h2>
+        <p class="section-desc">Nuestro trabajo no se limita a la asistencia inmediata; construimos soluciones de largo plazo para Temixco.</p>
+        
+        <div class="planes-list">
+            <div class="plan-item">
+                <div class="plan-number">01</div>
+                <div>
+                    <h3>Plan de Desarrollo Comunitario 2026–2027</h3>
+                    <p>Estrategia integral enfocada en mejorar infraestructura básica, servicios públicos y espacios recreativos en las colonias más necesitadas de Temixco, con enfoque participativo y transparente.</p>
+                </div>
+            </div>
+            <div class="plan-item">
+                <div class="plan-number">02</div>
+                <div>
+                    <h3>Programa de Vinculación Institucional</h3>
+                    <p>Alianzas estratégicas con gobierno local, empresas privadas y otras organizaciones civiles para maximizar el impacto de nuestras acciones y generar recursos sostenibles.</p>
+                </div>
+            </div>
+            <div class="plan-item">
+                <div class="plan-number">03</div>
+                <div>
+                    <h3>Fortalecimiento del Tejido Social</h3>
+                    <p>Talleres de convivencia, resolución pacífica de conflictos y formación de líderes comunitarios para construir una sociedad más unida, participativa y resiliente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 <strong>Grupo Civil — Temixco, Morelos</strong>. Todos los derechos reservados.</p>
+        <p style="margin-top: 0.5rem;">Trabajando juntos por una comunidad más justa y próspera. Creado y gestionado por JC AlbA</p>
+    </footer>
+
+    <!-- JAVASCRIPT INTEGRADO PARA EL CARRUSEL Y NAVEGACIÓN -->
+    <script>
+        // === LÓGICA DEL CARRUSEL ===
+        const track = document.getElementById('carouselTrack');
+        const slides = Array.from(track.children);
+        const nextBtn = document.getElementById('nextBtn');
+        const prevBtn = document.getElementById('prevBtn');
+        const indicatorsContainer = document.getElementById('indicators');
+        
+        let currentIndex = 0;
+        let autoPlayInterval;
+
+        // Crear indicadores dinámicamente
+        slides.forEach((_, index) => {
+            const dot = document.createElement('div');
+            dot.classList.add('indicator');
+            if (index === 0) dot.classList.add('active');
+            dot.addEventListener('click', () => goToSlide(index));
+            indicatorsContainer.appendChild(dot);
+        });
+
+        const indicators = Array.from(indicatorsContainer.children);
+
+        function updateIndicators() {
+            indicators.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentIndex);
+            });
+        }
+
+        function goToSlide(index) {
+            currentIndex = index;
+            track.style.transform = `translateX(-${currentIndex * 100}%)`;
+            updateIndicators();
+            resetAutoPlay();
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            goToSlide(currentIndex);
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            goToSlide(currentIndex);
+        }
+
+        function startAutoPlay() {
+            autoPlayInterval = setInterval(nextSlide, 5000);
+        }
+
+        function resetAutoPlay() {
+            clearInterval(autoPlayInterval);
+            startAutoPlay();
+        }
+
+        // Event listeners del carrusel
+        nextBtn.addEventListener('click', nextSlide);
+        prevBtn.addEventListener('click', prevSlide);
+        track.addEventListener('mouseenter', () => clearInterval(autoPlayInterval));
+        track.addEventListener('mouseleave', startAutoPlay);
+        startAutoPlay();
+
+        // === SCROLL SUAVE Y HEADER ===
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            document.getElementById('mainHeader')
+                .classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
+</body>
+</html>
